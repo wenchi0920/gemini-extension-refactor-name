@@ -1,0 +1,12 @@
+{
+  "name": "refactor-name",
+  "version": "1.0.0",
+  "description": "高級軟體架構師擴充程序，用於智慧程式碼重構和現代化。",
+  "author": "wenchi0920",
+  "commands": [
+    {
+      "name": "/refactor-name",
+      "description": "分析並重構程式中的函數與變數名稱"
+    }
+  ]
+}
