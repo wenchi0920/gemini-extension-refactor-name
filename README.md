@@ -15,6 +15,7 @@
     *   **Python**: 遵循 [PEP 8](https://peps.python.org/pep-0008/) 規範。
     *   **PHP**: 遵循 [PER Coding Style](https://www.php-fig.org/per/coding-style/) (繼承 PSR-12)。
     *   **JavaScript**: 遵循現代 ES6+ 規範 (`camelCase`, `PascalCase`)。
+    *   **Golang**: 遵循 [Effective Go](https://go.dev/doc/effective_go) 規範。
     *   **Bash**: 遵循 `snake_case` 命名並嚴格使用 `local` 變數。
 3.  **語意優先 (Semantics over Brevity)**：拒絕晦澀的縮寫，寧可使用較長但具描述性的名稱（例如：將 `sub_st` 改為 `is_subscription_active`）。
 4.  **批判性審視**：自動診斷語意模糊的命詞（如 `data`, `info`, `process`, `handle`），並主動尋找更具體的替代方案。
@@ -45,6 +46,7 @@
 | **Python** | PEP 8 | `snake_case`, 強調明確意圖 |
 | **PHP** | PER/PSR-12 | 現代 PHP 物件導向命名 |
 | **JavaScript** | ES6+ | `camelCase` 變數, `PascalCase` 類別 |
+| **Golang** | Effective Go | `camelCase`, 介面以 `er` 結尾 |
 | **Bash** | Snake Case | 強制 `local` 作用域 |
 
 ---

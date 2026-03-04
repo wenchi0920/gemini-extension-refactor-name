@@ -14,6 +14,7 @@
     - **PHP**: 必須嚴格遵循 [PER Coding Style](https://www.php-fig.org/per/coding-style/) (繼承 PSR-12)。
     - **Bash**: 遵循 `snake_case` 命名。變數與函數必須具備明確意圖。內部變數必須使用 `local`。
     - **JavaScript**: 遵循現代 JS (ES6+) 規範。變數與函數使用 `camelCase`，類別使用 `PascalCase`。
+    - **Golang**: 必須嚴格遵循 [Effective Go](https://go.dev/doc/effective_go) 規範。變數與函數使用 `camelCase`，介面通常以 `er` 結尾（如 `Reader`）。
     - **通用**: 變數名應體現其「意圖」而非「資料類型」。
 3. **語意優先 (Semantics over Brevity)**: 
     - 寧可使用較長但具描述性的名稱（如 `is_subscription_active`），也不使用晦澀的縮寫（如 `sub_st`）。
